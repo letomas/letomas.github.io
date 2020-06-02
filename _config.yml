@@ -1,1 +1,4 @@
-theme: jekyll-theme-midnight
+theme: just-the-docs
+search_enabled: false
+color_scheme: "dark"
+title: Vyhledávání adresních míst
