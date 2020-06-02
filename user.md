@@ -29,32 +29,32 @@ Obec: Praha
 Ulice: Národní
 Číslo domovní/orientační: 36
 ```
-![vyhledavani-podle-adresy](.assets/search-form.png)
+![vyhledavani-podle-adresy](search-form.png)
 
 ### Vyhledávání podle kódu
 Pro vyhledávání podle kódu je také dostupné našeptávání. Vybráním položky v našeptávači dojde k přesměrování na detail adresního místa.
 
 Příklad vyhledávání podle kódu:
-![vyhledavani-podle-kodu](.assets/search-code.png)
+![vyhledavani-podle-kodu](./assets/search-code.png)
 
 ### Ukázky našeptávání
 Našeptávání pro část obce
-![naseptavani-cast-obce](.assets/district-suggestion.png)
+![naseptavani-cast-obce](./assets/district-suggestion.png)
 
 Našeptávání kódu adresního místa
-![naseptavani-kodu](.assets/code-suggestion.png)
+![naseptavani-kodu](./assets/code-suggestion.png)
 
 
 ## Zobrazení detailu adresního místa
 K detailu adresního místa je možné se dostat skrze odkaz v tabulce s výsledky vyhledávání, nebo zvolením položky v našeptávačí pro vyhledávání podle kódu adresního místa. Ve vyhledávání adresních míst v okolí je odkaz na detail dostupný po kliknutí na značku na mapě. Detail obsahuje informace o adresním místě, jeho adresu dle vyhlášky č. 359/2011 Sb. Detail také obsahuje mapu, na které je zobrazeno adresní místo a odkazy na známé mapové služby, ve kterých je možné si adresní místo zobrazit.
 
 Odkaz na detail ve vyhledávání adresních místv okolí
-![detail-popup](.assets/detail-popup.png)
+![nearby-addresses](./assets/nearby-addresses.png)
 
 Ukázka detailu adresního místa
 
 [Odkaz na detail](https://hledání.rúian.opendata.cz/adresni-mista/28344987)
-![detail](.assets/detail.png)
+![detail](./assets/detail.png)
 
 ## Zobrazení adresního místa ve známých mapových službách
 V detailu adresního místa jsou dostupné odkazy na známé mapové služby, konkrétně se jedná o služby Google Maps, Mapy.cz a OpemStreetMap. Po kliknutí na odkaz se v nové záložce otevře daná služba, ve které bude zobrazeno adresní místo.
