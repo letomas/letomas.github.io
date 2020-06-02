@@ -1,0 +1,28 @@
+{
+  
+  "0": {
+    "title": "Administrátorská dokumentace",
+    "content": "",
+    "url": "http://localhost:4000/admin.html",
+    "relUrl": "/admin.html"
+  }
+  ,"1": {
+    "title": "Vývojářská dokumentace",
+    "content": "",
+    "url": "http://localhost:4000/developer.html",
+    "relUrl": "/developer.html"
+  }
+  ,"2": {
+    "title": "Úvod",
+    "content": "Vyhledávání adresních míst v RÚIAN . Tato stránka obsahuje uživatelskou, vývojářskou a administrátorskou dokumentaci pro aplikaci Vyhledávání adresních míst v RÚIAN. .",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  }
+  ,"3": {
+    "title": "Uživatelská příručka",
+    "content": "",
+    "url": "http://localhost:4000/user.html",
+    "relUrl": "/user.html"
+  }
+  
+}
