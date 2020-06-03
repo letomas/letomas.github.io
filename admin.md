@@ -40,7 +40,7 @@ Tento skript volá docker-compose up -d (případně ještě s argumentem --buil
 
 
 ## Indexace dat
-K nahrání a aktualizaci dat slouží skript:
+K nahrání a aktualizaci dat slouží následující skript:
 ```
 ./index.sh
 ```
@@ -56,7 +56,7 @@ docker build --tag csvmodifier ./CSVModifier/
 ```
 Pokud se rozhodnete build image provést manuálně, musíte jej provést před spuštěním skriptu pro indexaci.
 
-Skript stáhne zip soubor, který osahuje přes 6000 csv souborů, jeden soubor pro každou obec v ČR. Zip soubor je nutné rozbalit. Csv soubory se musí upravit (zkonvertovat kódování z Windows-1250 na UTF-8 a přidat sloupce s identifikací a zkonvertovanými souřadnicemi) a následně nahrát do Solru pomocí Post toolu (nástroj pro nahrávání souborů do Solru přes příkazovou řádku). Celý proces může zabrat přibližně 20 minut. Data se uchovávají v Docker volume, takže při restartu aplikace není třeba data znovu indexovat.
+Skript stáhne zip soubor, který osahuje přes 6000 csv souborů, jeden soubor pro každou obec v ČR. Zip soubor je nutné rozbalit. Csv soubory se musí upravit (zkonvertovat kódování z Windows-1250 na UTF-8 a přidat sloupce s identifikací a zkonvertovanými souřadnicemi) a následně nahrát do Solru pomocí Post toolu (nástroj pro nahrávání souborů do Solru přes příkazovou řádku). Celý proces může zabrat přibližně 20 minut. Data se uchovávají v Docker volume, takže při restartu aplikace není třeba data znovu indexovat. Data jsou aktualizována měsičně, poslední den v měsíci.
 
 Po spuštění je aplikace dostupná z [http://localhost:8000](http://localhost:8000)
 

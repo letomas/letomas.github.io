@@ -29,7 +29,7 @@ Obec: Praha
 Ulice: Národní
 Číslo domovní/orientační: 36
 ```
-![vyhledavani-podle-adresy](search-form.png)
+![vyhledavani-podle-adresy](./assets/search-form.png)
 
 ### Vyhledávání podle kódu
 Pro vyhledávání podle kódu je také dostupné našeptávání. Vybráním položky v našeptávači dojde k přesměrování na detail adresního místa.
