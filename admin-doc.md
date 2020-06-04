@@ -9,7 +9,7 @@ Administrátorská dokumentace obsahuje požadavky pro stuštění aplikace a in
 
 Odkaz na Github: [https://github.com/letomas/RUIAN-search](https://github.com/letomas/RUIAN-search)
 
-Commit: `8b12c970f8e953fb3f9cc2b8fb6b2464db5cc0e9`
+Commit spojený s odevzdáním: `20cb4ee28375fc3e2a69f372f447fe563de5cd34`
 
 ### Navigace
   - [Požadavky](#po%c5%beadavky)

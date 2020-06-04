@@ -182,4 +182,4 @@ Dále používá Vuex pro správu stavu aplikace. Nastavení Vuex se nachází v
 
 Ve složce `src/views` se nacházejí komponenty, které se používají při směrování. Ve složce `src/components` se nachází pomocné komponenty.
 
-V rámci frontendu vznikly dva pomocné moduly. Jeden slouží pro konzumaci HTTP API: `src/api.js`. Konzumace rozhraní byla oddělena do modulu kvůli modularitě. Takto je snadné modul upravit (není třeba měnit kód všude, kde se posílají požadavky na restové API), nebo jej vyměnit za jiný. Druhý modul slouží pro skládání adres dle vyhlášky č. 359/2011 Sb. `src/addressBuilder.js`.
+V rámci frontendu vznikly dva pomocné moduly. Jeden slouží pro konzumaci HTTP API: `src/api.js`. Konzumace rozhraní byla oddělena do modulu kvůli modularitě. Takto je snadné modul upravit (není třeba měnit kód všude, kde se posílají požadavky na backend), nebo jej vyměnit za jiný. Druhý modul slouží pro skládání adres dle vyhlášky č. 359/2011 Sb. `src/addressBuilder.js`.
