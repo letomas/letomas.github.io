@@ -8,7 +8,7 @@ nav_order: 2
 V této dokumentaci je popsáno, co je možné v aplikaci provádět a jak. Jsou zde uvedeny konkrétní příklady užití. Aplikace je dostupná na adrese [https://hledání.rúian.opendata.cz](https://hledání.rúian.opendata.cz).
 
 ## O aplikaci
-Aplikace slouží k vyhledávání adresních míst v Registru územní identifikace, adres a nemovitostí (RÚIAN).
+Aplikace slouží k vyhledávání adresních míst v Registru územní identifikace, adres a nemovitostí (RÚIAN). Aplikace pracuje s identifikátory [IRI](https://ofn.gov.cz/propojená-data/draft/#RÚIAN) adresních míst.
 
 ## Vyhledávání adresních míst
 Adresní místa lze vyhledávat podle jejich adresy, nebo podle jejich kódu.
@@ -32,7 +32,8 @@ Ulice: Národní
 ![vyhledavani-podle-adresy](./assets/search-form.png)
 
 ### Vyhledávání podle kódu
-Pro vyhledávání podle kódu je také dostupné našeptávání. Vybráním položky v našeptávači dojde k přesměrování na detail adresního místa.
+Pro vyhledávání podle kódu je také dostupné našeptávání. Vybráním položky v našeptávači dojde k přesměrování na detail adresního místa.Pod formulářem pro vyhledávání podle adresy se nachází textové pole. Pomocí tohoto pole je možné vyhledávat adresní místa podle jejich kódu.
+I zde je dostupné našeptávání. Vybráním položky v našeptávači dojde k přesměrování na detail adresního místa.
 
 Příklad vyhledávání podle kódu:
 ![vyhledavani-podle-kodu](./assets/search-code.png)
@@ -46,7 +47,7 @@ Našeptávání kódu adresního místa
 
 
 ## Zobrazení detailu adresního místa
-K detailu adresního místa je možné se dostat skrze odkaz v tabulce s výsledky vyhledávání, nebo zvolením položky v našeptávačí pro vyhledávání podle kódu adresního místa. Ve vyhledávání adresních míst v okolí je odkaz na detail dostupný po kliknutí na značku na mapě. Detail obsahuje informace o adresním místě, jeho adresu dle vyhlášky č. 359/2011 Sb. Detail také obsahuje mapu, na které je zobrazeno adresní místo a odkazy na známé mapové služby, ve kterých je možné si adresní místo zobrazit.
+K detailu adresního místa je možné se dostat skrze odkaz v tabulce s výsledky vyhledávání, nebo zvolením položky v našeptávači pro vyhledávání podle kódu adresního místa. Ve vyhledávání adresních míst v okolí je odkaz na detail dostupný po kliknutí na značku na mapě. Detail obsahuje informace o adresním místě, jeho adresu dle vyhlášky č. 359/2011 Sb. Detail také obsahuje mapu, na které je zobrazeno adresní místo a odkazy na známé mapové služby, ve kterých je možné si adresní místo zobrazit.
 
 Odkaz na detail ve vyhledávání adresních místv okolí
 ![nearby-addresses](./assets/nearby-addresses.png)
@@ -60,7 +61,6 @@ Ukázka detailu adresního místa
 V detailu adresního místa jsou dostupné odkazy na známé mapové služby, konkrétně se jedná o služby Google Maps, Mapy.cz a OpemStreetMap. Po kliknutí na odkaz se v nové záložce otevře daná služba, ve které bude zobrazeno adresní místo.
 
 ## Vyhledání adresních míst v okolí
-Součastí aplikace je vyhledávání adresních míst v okolí, ke kterému je možné se dostat skrze navigaci. Pokud povolíte sdílení polohy, zobrazí se na mapě adresní místa ve vašem okolí. Pokud jste na počítači, může být zjištění vaší polohy nepřesné, jelikož většina počítačů nemá GPS. Dále je možné manuálně zadat GPS souřadnice bodu, jehož okolí si přejete zobrazit. Souřadnice je třeba zadat v desítkové soustavě, nikoliv ve stupních. Na mapě jsou adresní místa vyznačena značkami. Po kliknutí na značku se zobrazí adresa adresního místa a odkaz na jeho detail.
 Součastí aplikace je vyhledávání adresních míst v okolí, ke kterému je možné se dostat skrze navigaci. Pokud povolíte sdílení polohy, zobrazí se na mapě adresní místa ve vašem okolí. Pokud jste na počítači, může být zjištění vaší polohy nepřesné, jelikož většina počítačů nemá GPS. Dále je možné manuálně zadat GPS souřadnice bodu, jehož okolí si přejete zobrazit. Souřadnice je třeba zadat v desítkové soustavě, nikoliv ve stupních. Na mapě jsou adresní místa vyznačena značkami. Po kliknutí na značku se zobrazí adresa adresního místa a odkaz na jeho detail.
 
 Příklad vyhledávání adresních míst v okolí:
